@@ -1,0 +1,10 @@
+# Shotgun Pipeline Toolkit configuration file
+# This file was automatically created by setup_project
+# This file reflects the paths in the primary pipeline
+# configuration defined for this project.
+
+Windows: 'S:\projects\esc_team_template_v01\__configs\shotgun'
+Darwin: ''
+Linux: '/escape/shares/SCMA/projects/esc_team_template_v01/__configs/shotgun'
+
+# End of file.
