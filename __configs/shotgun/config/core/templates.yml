@@ -209,17 +209,17 @@ paths:
 
     # The location of WIP files
     photoshop_shot_work:
-        definition: '@shot_root/work/photoshop/{name}.v{version}.psd'
+        definition: '@shot_root/work/photoshop/{Shot}_{name}.v{version}.psd'
     shot_work_area_photoshop:
         definition: '@shot_root/work/photoshop'
     # The location of backups of WIP files
     photoshop_shot_snapshot:
-        definition: '@shot_root/work/photoshop/snapshots/{name}.v{version}.{timestamp}.psd'
+        definition: '@shot_root/work/photoshop/snapshots/{Shot}_{name}.v{version}.{timestamp}.psd'
     # The location of published files
     shot_publish_area_photoshop:
         definition: '@shot_root/publish/photoshop'
     photoshop_shot_publish:
-        definition: '@shot_root/publish/photoshop/{name}.v{version}.psd'
+        definition: '@shot_root/publish/photoshop/{Shot}_{name}.v{version}.psd'
 
 
     #
@@ -234,13 +234,13 @@ paths:
         definition: '@shot_root/publish/maya'
     # The location of WIP files
     maya_shot_work:
-        definition: '@shot_root/work/maya/{name}.v{version}.{maya_extension}'
+        definition: '@shot_root/work/maya/{Shot}_{name}.v{version}.{maya_extension}'
     # The location of backups of WIP files
     maya_shot_snapshot:
-        definition: '@shot_root/work/maya/snapshots/{name}.v{version}.{timestamp}.{maya_extension}'
+        definition: '@shot_root/work/maya/snapshots/{Shot}_{name}.v{version}.{timestamp}.{maya_extension}'
     # The location of published maya files
     maya_shot_publish:
-        definition: '@shot_root/publish/maya/{name}.v{version}.{maya_extension}'
+        definition: '@shot_root/publish/maya/{Shot}_{name}.v{version}.{maya_extension}'
 
 
     #
@@ -255,13 +255,13 @@ paths:
         definition: '@shot_root/publish/houdini'
     # The location of WIP files
     houdini_shot_work:
-        definition: '@shot_root/work/houdini/{name}.v{version}.hip'
+        definition: '@shot_root/work/houdini/{Shot}_{name}.v{version}.hip'
     # The location of backups of WIP files
     houdini_shot_snapshot:
-        definition: '@shot_root/work/houdini/snapshots/{name}.v{version}.{timestamp}.hip'
+        definition: '@shot_root/work/houdini/snapshots/{Shot}_{name}.v{version}.{timestamp}.hip'
     # The location of published houdini files
     houdini_shot_publish:
-        definition: '@shot_root/publish/houdini/{name}.v{version}.hip'
+        definition: '@shot_root/publish/houdini/{Shot}_{name}.v{version}.hip'
     # Alembic caches
     houdini_shot_work_alembic_cache:
         definition: '@shot_root/work/houdini/cache/alembic/{name}/{houdini.node}/v{version}/{Shot}_{name}_v{version}.abc'
@@ -293,13 +293,13 @@ paths:
         definition: '@shot_root/publish/3dsmax'
     # The location of WIP files
     max_shot_work:
-        definition: '@shot_root/work/3dsmax/{name}.v{version}.max'
+        definition: '@shot_root/work/3dsmax/{Shot}_{name}.v{version}.max'
     # The location of backups of WIP files
     max_shot_snapshot:
-        definition: '@shot_root/work/3dsmax/snapshots/{name}.v{version}.{timestamp}.max'
+        definition: '@shot_root/work/3dsmax/snapshots/{Shot}_{name}.v{version}.{timestamp}.max'
     # The location of published max files
     max_shot_publish:
-        definition: '@shot_root/publish/3dsmax/{name}.v{version}.max'
+        definition: '@shot_root/publish/3dsmax/{Shot}_{name}.v{version}.max'
 
 
     #
@@ -335,13 +335,13 @@ paths:
         definition: '@shot_root/publish/nuke'
     # The location of WIP script files
     nuke_shot_work:
-        definition: '@shot_root/work/nuke/{name}.v{version}.nk'
+        definition: '@shot_root/work/nuke/{Shot}_{name}.v{version}.nk'
     # The location of backups of WIP files
     nuke_shot_snapshot:
-        definition: '@shot_root/work/nuke/snapshots/{name}.v{version}.{timestamp}.nk'
+        definition: '@shot_root/work/nuke/snapshots/{Shot}_{name}.v{version}.{timestamp}.nk'
     # The location of published nuke script files
     nuke_shot_publish:
-        definition: '@shot_root/publish/nuke/{name}.v{version}.nk'
+        definition: '@shot_root/publish/nuke/{Shot}_{name}.v{version}.nk'
     
     # write node outputs
     #nuke_shot_render_mono_dpx:
